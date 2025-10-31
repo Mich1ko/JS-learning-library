@@ -1,0 +1,47 @@
+#button_container {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 22rem;
+  width: 100%;
+}
+
+#button_container button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 2rem;
+}
+
+#heading_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+#text_container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  margin: 0; /* Remove any margin */
+  text-align: center;
+}
+
+#output {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  margin: 5px; /* Remove any margin */
+  margin-left: 2px;
+  text-align: center;
+}
